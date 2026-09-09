@@ -920,15 +920,15 @@ a:focus {
   .team-container { grid-template-columns: repeat(3, 1fr); }
 }
 
-/* desktop: 7 per row */
+/* desktop: 6 per row */
 @media (min-width: 1200px) {
-  .team-container { grid-template-columns: repeat(7, 1fr); }
+  .team-container { grid-template-columns: repeat(6, 1fr); }
 }
 
-/* Very wide: still 7 per row but with less gap if you want */
+/* Very wide: still 6 per row but with less gap if you want */
 @media (min-width: 1600px) {
   .team-container {
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 0.5rem;
   }
 }
