@@ -783,7 +783,7 @@ a:focus {
 }
 
 @media (min-width: 1200px) {           /* desktop: 5 per row; or 4 */ 
-  .team-container { grid-template-columns: repeat(5, 1fr); }
+  .team-container { grid-template-columns: repeat(6, 1fr); }
 }
 
 /* Team card */
